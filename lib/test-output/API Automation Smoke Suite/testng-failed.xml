@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Automation Smoke Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="api.com.util.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Automation Test Cases(failed)">
+    <groups>
+      <run>
+        <include name="RegressionSuite"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="api.com.tests.apitestscript">
+        <methods>
+          <include name="validateStatusCodeGetUserwithqueryparam"/>
+          <include name="endReport"/>
+          <include name="config"/>
+          <include name="logBeforeMethod"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- api.com.tests.apitestscript -->
+    </classes>
+  </test> <!-- Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [API Automation Smoke Suite] -->

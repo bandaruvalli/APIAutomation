@@ -1,0 +1,16 @@
+{
+
+    "name": "morpheus",
+    "jobs": ["tester","developer","support"],
+    "cityModels":[
+{
+           "Name":"bangalore",
+           "Temperature":"30"
+},
+{
+   	   "Name":"delhi",
+        "Temperature":"40"
+}
+
+]
+}

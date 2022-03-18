@@ -1,0 +1,7 @@
+{
+    "getUsersRequestUri":"https://reqres.in/api/users?page=2",
+    "ExpectedStatusCode": 200,
+    "page": "4",
+    "endPoint":"api/users?page=2",
+    "basicAuthendpoint":"basic-auth/",
+}
