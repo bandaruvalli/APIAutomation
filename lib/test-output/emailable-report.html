@@ -8,40 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">API Automation Smoke Suite</th></tr>
-<tr><td><a href="#t0">Automation Test Cases</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">4,257</td><td>RegressionSuite</td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2,573</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API Automation Smoke Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Automation Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">api.com.tests.apitestscript</td><td><a href="#m0">validateStatusCodeGetUserwithqueryparam</a></td><td rowspan="1">1647599087257</td><td rowspan="1">5</td></tr><tr><th colspan="4">Automation Test Cases &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">api.com.tests.apitestscript</td><td><a href="#m1">validateStatusCodeGetUserwithqueryparam</a></td><td rowspan="2">1647599087246</td><td rowspan="2">8</td></tr><tr class="retriedeven"><td><a href="#m2">validateStatusCodeGetUserwithqueryparam</a></td></tr><tr><th colspan="4">Automation Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">api.com.tests.apitestscript</td><td><a href="#m3">validateGetUsersResponseBody</a></td><td rowspan="1">1647599083054</td><td rowspan="1">3978</td></tr><tr class="passedeven"><td><a href="#m4">validateGetUsersSupportUrlResponseBody</a></td><td rowspan="1">1647599087043</td><td rowspan="1">156</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">api.com.tests.apitestscript</td><td><a href="#m0">validateStatusCodeGetUserwithqueryparam</a></td><td rowspan="1">1647690879054</td><td rowspan="1">2524</td></tr></tbody>
 </table>
-<h2>Automation Test Cases</h2><h3 id="m0">api.com.tests.apitestscript#validateStatusCodeGetUserwithqueryparam</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: path cannot be null
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
-	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1679)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
-	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
-	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
-	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
-	at api.com.tests.apitestscript.validateStatusCodeGetUserwithqueryparam(apitestscript.java:74)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">api.com.tests.apitestscript#validateGetUsersResponseBody</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">api.com.tests.apitestscript#validateGetUsersSupportUrlResponseBody</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">api.com.tests.apitestscript#validateStatusCodeGetUserwithqueryparam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -69,11 +69,12 @@ public class apitestscript extends BaseTest{
 	public void validateStatusCodeGetUserwithqueryparam() throws IOException, ParseException
 	{
 		extentReport.extentlog=extentReport.extentreport.startTest("validateStatusCodeGetUserwithqueryparam", "Validate the status code for get user with query param");
-		Response resp= given().queryParam(ReadTestData.getTestData("page"))
+		Response resp= given().queryParam("page",4)
 				      .when()
-				      .get(ReadTestData.getTestData("getUsersUri")); //restassured
+				      .get("https://reqres.in/api/users"); //restassured
 		int actualstatuscode=resp.statusCode(); //restassured
 		assertEquals(actualstatuscode, 200); //Testng
+		//System.out.println(resp.asString());
 	
 								       
 	}

@@ -97,13 +97,10 @@ dependencies {
         // implementation ("jakarta.xml.bind:jakarta.xml.bind-api:2.3.2")
   //  implementation 'javax.xml.bind:jaxb-api:2.2.12'
 
-
-     
-        
-     
-      
-      
-     
-          
-
+test{
+    useTestNG(){
+         useDefaultListeners=true
+         suites "Resources/TestSuites/SmokeSuite.xml"
+         }//gradlew test -Psmokesuite         
+}
 }
