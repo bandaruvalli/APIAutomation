@@ -211,7 +211,7 @@ public class apitestscript extends BaseTest{
 		System.out.println(resp.asString());							       
 	}
 	
-	/*@Test(description="validate the response body for the create users")
+	@Test(description="validate the response body for the create users")
 	public void validateResponseBodyPostPojoRequest() throws IOException
 	{
 		FileInputStream file=new FileInputStream(new File(System.getProperty("user.dir")+ "/Resources/Testdata/postpojorequest.json"));
@@ -222,7 +222,7 @@ public class apitestscript extends BaseTest{
 	//	int actualstatuscode=resp.statusCode(); //restassured
 		assertEquals(resp.statusCode(),201); //Testng
 		System.out.println(resp.body().asString());							       
-	}*/
+	}
 	
 	@Test(description="validate the response body for the create users using postpojo")
 	public void validateResponseBodyPojoRequest() throws IOException
